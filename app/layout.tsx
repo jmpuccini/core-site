@@ -1,4 +1,3 @@
-import "../public/output.css";
 import "./globals.css";
 import { ReactNode } from "react";
 import Header from "../components/Header";
