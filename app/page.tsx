@@ -1,9 +1,6 @@
 export default function HomePage() {
   return (
     <div>
-      <div className="bg-red-500 text-white p-4 text-center">
-  Tailwind Test Active
-</div>
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center bg-white text-center px-6" id="home">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-8 leading-tight text-gray-800">
@@ -55,7 +52,7 @@ export default function HomePage() {
           Each tool used within the method is practical, lightweight, and designed for real-world environments.
         </p>
       </section>
-
+      
       {/* Case Studies Section */}
       <section className="py-24 px-6 bg-gray-50 text-center" id="cases">
         <h2 className="text-4xl font-bold mb-12 text-gray-800">Case Studies</h2>
@@ -89,7 +86,7 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="py-24 px-6 bg-white text-center">
+      <section className="py-24 px-6 bg-gray-50 text-center">
         <h2 className="text-4xl font-bold mb-8 text-gray-800">Ready to Start Your Journey?</h2>
         <p className="text-lg text-gray-700 mb-10 max-w-2xl mx-auto leading-relaxed">
           No commitment. Just a conversation about your goals.
