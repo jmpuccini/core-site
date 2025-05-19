@@ -1,6 +1,9 @@
 export default function HomePage() {
   return (
     <div>
+      <div className="bg-red-500 text-white p-4 text-center">
+  Tailwind Test Active
+</div>
       {/* Hero Section */}
       <section className="min-h-screen flex flex-col justify-center items-center bg-white text-center px-6" id="home">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-8 leading-tight text-gray-800">
